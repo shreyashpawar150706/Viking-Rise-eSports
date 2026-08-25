@@ -1,4 +1,4 @@
-// Mobile Navigation
+
 
 const menuButton = document.getElementById("menu-btn");
 const navLinks = document.getElementById("nav-links");
@@ -8,7 +8,6 @@ menuButton.addEventListener("click", () => {
 });
 
 
-// Close mobile menu after clicking a navigation link
 
 document.querySelectorAll("#nav-links a").forEach(link => {
 
@@ -16,12 +15,7 @@ document.querySelectorAll("#nav-links a").forEach(link => {
         navLinks.classList.remove("active");
     });
 
-});
-
-
-// Contact Form
-// GitHub Pages cannot process forms by itself.
-// This currently opens the user's email application.
+})
 
 const contactForm = document.getElementById("contact-form");
 
